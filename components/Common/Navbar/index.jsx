@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import mail from '../../../assets/images/icons/mail.svg';
 import pin from '../../../assets/images/icons/pin.svg';
 import phone from '../../../assets/images/icons/phone.svg';
@@ -19,7 +20,11 @@ const Navbar = () => {
 			icon: pin },
     ];
     
-    const icons = [ instagram, facebook, whatsapp, youtube ];
+    const icons = [ {link: '', icon: whatsapp },
+        { link: '', icon: youtube},
+        { link: '', icon: facebook},
+        { link: '', icon: instagram },
+   ];
 
 	return (
         <div className="navbar">
@@ -32,7 +37,7 @@ const Navbar = () => {
             </ul>
             <ul className="navbar__social-media-list"> 
                 {icons.map(item=>(
-                    <li><img className="navbar__social-media-list__icon" src={item}/></li>
+                    <li><Link href={item.link}><img className="navbar__social-media-list__icon" src={item.icon}/></Link></li>
                 ))}
             </ul>
         </div>

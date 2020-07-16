@@ -1,3 +1,18 @@
 {
-    "extends": "keystone"
+    "rules": {
+        "jsx-a11y/anchor-is-valid": 0,
+        "react/prop-types": 0,
+        "no-unused-vars": 0,
+        "no-undef": 0,
+        "react/no-unescaped-entities": 0,
+        "no-useless-escape": 0,
+        "react/display-name": 0,
+        "react/jsx-key": 0
+    },
+    "extends": "keystone",
+    "settings": {
+        "react": {
+          "version": "detect"
+        }
+    }
 }
