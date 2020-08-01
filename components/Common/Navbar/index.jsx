@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { Container, Navbar } from 'react-bootstrap';
 import mail from '../../../assets/images/icons/mail.svg';
 import pin from '../../../assets/images/icons/pin.svg';
 import phone from '../../../assets/images/icons/phone.svg';
@@ -10,7 +11,7 @@ import youtube from '../../../assets/images/icons/youtube.svg';
 
 import './styles.scss';
 
-const Navbar = () => {
+const NavbarInfo = () => {
 	const data = [
 		{ info: '1 809 123 4567',
 			icon: phone },
@@ -27,7 +28,8 @@ const Navbar = () => {
    ];
 
 	return (
-        <div className="navbar">
+        <Navbar expand="lg" variant="light" bg="light">
+        <Container className="navbar">
             <ul className="navbar__info-list">
             {data.map(item => (
                 <>
@@ -40,8 +42,9 @@ const Navbar = () => {
                     <li><Link href={item.link}><img className="navbar__social-media-list__icon" src={item.icon}/></Link></li>
                 ))}
             </ul>
-        </div>
+        </Container>
+        </Navbar>
 	);
 };
 
-export default Navbar;
+export default NavbarInfo;

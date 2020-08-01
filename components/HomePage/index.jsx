@@ -1,14 +1,25 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import Navbar from '../Common/Navbar';
 import Menu from '../Common/Menu';
+import NosotrosHome from '../Common/NosotrosHome';
+import HeroImg from '../../assets/images/hero.jpg';
+import PorqueElegirnos from '../Common/PorqueElegirnos';
+import NuestrosServicios from '../Common/NuestrosServicios';
+import ContactanosHome from '../Common/ContactanosHome';
 
 import './styles.scss';
 
 const HomePage = () => (
-    <div className="home-page">
+    <Container className="home-page">
         <Navbar />
         <Menu />
-    </div>
+        <img className="home-page__hero-img" src={HeroImg} />
+        <NosotrosHome />
+        <PorqueElegirnos />
+        <NuestrosServicios />
+        <ContactanosHome />
+    </Container>
 );
 
 export default HomePage;
