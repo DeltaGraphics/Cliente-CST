@@ -1,0 +1,19 @@
+@import '../../../assets/stylesheets/utils.scss';
+
+.nuestro-portafolio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    &__title {
+        font-size: 32px;
+        text-align: center;
+        color: $header-gray;
+    }
+    &__divider {
+        height: 2px;
+        background-color: $red;
+        width: 200px;
+        align-self: center;
+    }
+    
+}

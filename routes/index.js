@@ -1,8 +1,7 @@
 const keystone = require('keystone');
 
 // Setup Route Bindings
-exports = module.exports = nextApp => keystoneApp => {
-
+exports = module.exports = (nextApp) => (keystoneApp) => {
 	// Next request handler
 	const handle = nextApp.getRequestHandler();
 
