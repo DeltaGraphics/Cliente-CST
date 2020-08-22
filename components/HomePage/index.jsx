@@ -8,6 +8,7 @@ import PorqueElegirnos from '../Common/PorqueElegirnos';
 import NuestrosServicios from '../Common/NuestrosServicios';
 import ContactanosHome from '../Common/ContactanosHome';
 import NuestroPortafolio from '../Common/NuestroPortafolio';
+import Footer from '../Common/Footer';
 
 import './styles.scss';
 
@@ -21,6 +22,7 @@ const HomePage = () => (
 		<NuestrosServicios />
 		<ContactanosHome />
 		<NuestroPortafolio />
+		<Footer />
 	</Container>
 );
 

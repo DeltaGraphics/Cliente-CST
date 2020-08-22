@@ -5,7 +5,7 @@ import mail from '../../../assets/images/icons/mail.svg';
 import pin from '../../../assets/images/icons/pin.svg';
 import phone from '../../../assets/images/icons/phone.svg';
 import instagram from '../../../assets/images/icons/instagram.svg';
-import facebook from '../../../assets/images/icons/instagram.svg';
+import facebook from '../../../assets/images/icons/facebook.svg';
 import whatsapp from '../../../assets/images/icons/whatsapp.svg';
 import youtube from '../../../assets/images/icons/youtube.svg';
 
