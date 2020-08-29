@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Link from 'next/link';
 import { Container } from 'react-bootstrap';
 import logoImg from '../../../assets/images/logos/LogoFinal.png';
@@ -27,29 +27,33 @@ const contacto = [
 
 const Footer = () => {
 	return (
-		<Container className="footer">
-			<div className="footer__first-column">
-				<img src={logoImg} />
-				<p>Empresa de servicios de tecnología y telecomunicación, expertos en diseño e implementación de soluciones para el sector empresarial y residencial. </p>
-				<p>Formamos parte del conglomerado de empresas de Heriberto Medrano Holding Group.</p>
-			</div>
-			<div className="footer__second-column">
-				<p className="footer__second-column__title">Navegación</p>
-				<ul>
-				{navegacion.map(item => (
-					<Link href={item.link}>{item.text}</Link>
-				))}</ul>
-			</div>
-			<div className="footer__third-column">
-				<ul>
-					{contacto.map(item => (
-					item.info !== 'Siguenos en las redes:'
-					? (<li className="footer__third-column__item"><img src={item.icon} />{item.info}</li>)
-					: (<li className="footer__third-column__item">{item.info}{item.icon.map(item => (<img src={item} />))}</li>)
-					))}
-				</ul>
-			</div>
-		</Container>
+		<Fragment>
+			<Container className="footer">
+				<div className="footer__first-column">
+					<img src={logoImg} />
+					<p>Empresa de servicios de tecnología y telecomunicación, expertos en diseño e implementación de soluciones para el sector empresarial y residencial. </p>
+					<p>Formamos parte del conglomerado de empresas de Heriberto Medrano Holding Group.</p>
+				</div>
+				<div className="footer__second-column">
+					<p className="footer__second-column__title">Navegación</p>
+					<ul>
+					{navegacion.map(item => (
+						<Link href={item.link}>{item.text}</Link>
+					))}</ul>
+				</div>
+				<div className="footer__third-column">
+					<p className="footer__third-column__title">Contacto</p>
+					<ul>
+						{contacto.map(item => (
+						item.info !== 'Siguenos en las redes:'
+						? (<li className="footer__third-column__item"><img src={item.icon} /><span >{item.info}</span></li>)
+						: (<li className="footer__third-column__item"><p className="footer__third-column__first-p" >{item.info}</p><p className="footer__third-column__p" >{item.icon.map(item => (<img src={item} />))}</p></li>)
+						))}
+					</ul>
+				</div>
+			</Container>
+			<div className="footer__copyright"><p>Copyright &copy; 2020. Todos los Derechos Reservados Central Solutions Technology</p></div>
+		</Fragment>
 	);
 };
 

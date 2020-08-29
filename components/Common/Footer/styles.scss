@@ -1,16 +1,24 @@
+@import '../../../assets/stylesheets/utils.scss';
+
 .footer {
   width: 80%;
   display: flex;
   margin: 20px 10% 0;
   justify-content: space-around;
+  font-family: 'Segoe UI', sans-serif;
   &__first-column {
     width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: $header-gray;
+    font-size: 14px;
+    font-weight: bold;
     img {
       width: 250px;
       height: auto;
+      margin-top: -10px;
+      margin-bottom: 25px;
     }
   }
   &__second-column {
@@ -24,32 +32,74 @@
       padding: 5px;
     }
     a {
-      color: black;
+      color: $header-gray;
       text-decoration: none;
     }
     &__title {
       text-align: center;
+      margin-top: 30px;
+      font-size: 22px;
+      color: $red;
+      font-weight: bold;
     }
     ul {
       display: flex;
       flex-direction: column;
       text-align: center;
       text-decoration: none;
-      margin-left: 0;
-      > li {
-        list-style: none;
+      padding-left: 0;
+      font-size: 14px;
+      font-weight: bold;
+      > a {
+      margin-bottom: 20px;
       }
     }
   }
   &__third-column {
     width: 30%;
     img {
-      width: 20px;
+      width: 18px;
       height: auto;
-      padding: -5px 5px 0;
     }
     li {
       list-style: none;
+      margin-top: 15px;
+      color: $header-gray;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    span {
+      margin-left: 10px;
+    }
+    &__first-p {
+      margin-left: 30px;
+    }
+    &__p {
+      margin-left: 70px;
+      > img {
+        width: 28px;
+        margin-right: 10px;
+      }
+    }
+    &__title {
+      margin-top: 30px;
+      font-size: 22px;
+      text-align: center;
+      font-weight: bold;
+      color: $red;
+    }
+  }
+  &__copyright {
+    background-color: $red;
+    color: $white;
+    text-align: center;
+    height: 40px;
+    p {
+      margin: 0;
+      padding: 14px;
+      font-size: 12px;
+      opacity: 0.8;
+      font-family: 'Segoe UI', sans-serif;
     }
   }
 }
