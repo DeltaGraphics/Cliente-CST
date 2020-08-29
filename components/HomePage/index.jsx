@@ -9,6 +9,7 @@ import NuestrosServicios from '../Common/NuestrosServicios';
 import ContactanosHome from '../Common/ContactanosHome';
 import NuestroPortafolio from '../Common/NuestroPortafolio';
 import Footer from '../Common/Footer';
+import Banner from '../Common/Banner';
 
 import './styles.scss';
 
@@ -22,6 +23,7 @@ const HomePage = () => (
 		<NuestrosServicios />
 		<ContactanosHome />
 		<NuestroPortafolio />
+		<Banner />
 		<Footer />
 	</Container>
 );
