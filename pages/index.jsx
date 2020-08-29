@@ -4,11 +4,9 @@ import HomePage from '../components/HomePage';
 import './styles.scss';
 
 class App extends Component {
-  render() {
-    return (
-      <HomePage />
-    );
-  };
+	render() {
+		return <HomePage />;
+	}
 }
 
 export default App;

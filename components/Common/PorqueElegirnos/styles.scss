@@ -1,0 +1,50 @@
+@import '../../../assets/stylesheets/utils.scss';
+
+.porque-elegirnos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    &__title {
+        font-size: 32px;
+        text-align: center;
+        color: $header-gray;
+    }
+    &__divider {
+        height: 2px;
+        background-color: $red;
+        width: 200px;
+        align-self: center;
+    }
+    &__card{
+            list-style: none;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+        &-img {
+            align-self: center;
+            width: 170px;
+            height: 150px;
+            border-radius: 20px;
+        }
+        &-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 30px 0 10px;
+            color: $header-gray;
+        }
+        &-content{
+            text-align: center;
+            color: $header-gray;
+        }
+    }
+    &__cards-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+}
