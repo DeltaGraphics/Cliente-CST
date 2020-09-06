@@ -1,0 +1,72 @@
+@import '../../../assets/stylesheets/utils.scss';
+
+.contactanos-hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #f7f7f7;
+    width: 80%;
+    margin-top: -6px;
+    padding: 60px 10% 60px 15%;    
+    &__divider {
+        height: 2px;
+        background-color: $red;
+        width: 200px;
+        align-self: center;
+    }
+    &__first-column {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      color: $header-gray;
+      font-size: 14px;
+      font-weight: bold;
+      flex-wrap: wrap;
+      margin: 0;
+      list-style: none;
+      li {
+        display: flex;
+        width: 100%;
+      }
+      span {
+        width: 25%;
+        height: 20px;
+      }
+      input {
+        border: none;
+        width: 50%;
+        height: 25px;
+        margin-top: -7px;
+        margin-left: -65px;
+      }
+      textarea {
+        width: 50% !important;
+        margin-left: -65px;
+      }
+    }
+    &__second-column {
+      width: 50%;
+      li {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 60px;
+      }
+      img {
+        width: 30px;
+        height: auto;
+        margin-right: 20px;
+      }
+      &__item {
+        list-style: none;
+        margin-top: 15px;
+        color: $header-gray;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+}
