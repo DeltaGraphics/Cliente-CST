@@ -1,20 +1,20 @@
 @import '../../../assets/stylesheets/utils.scss';
 
-.contactanos-home {
-    margin-top: -4px;
-    &__img {
+.nosotros-banner {
+    margin-top: 40px;
+    &__image {
         background-size: cover;
         width: 100%;
-        height: 285px;
+        height: 150px;
         cursor: pointer;
         img {
             width: 100%;
-            height: 285px;
+            height: 150px;
             position: absolute;
         }
         &-cap {
             width: 100%;
-            height: 285px;
+            height: 150px;
             background-color:$red;
             opacity: 0.8;
             z-index: 2;
@@ -25,20 +25,24 @@
         font-family: 'Segoe UI', sans-serif;
         position: absolute;
         display: flex;
-        padding-left: 12%;
-        padding-right: 10%;
         align-items: center;
-        height: 285px;
+        justify-content: center;
+        height: 150px;
         color: $white;
         font-weight: 500;
-        &-subtitle {
+        width: 100%;
+        text-align: center;
+        &-title {
             width: 80%;
             z-index: 5;
-            font-size: 42px;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 32px;
+            width: 45%;
         }
         &__divider {
             position: absolute;
-            width: 100%;
+            width: 150%;
             height: 2px;
             background-color: $white;
         }

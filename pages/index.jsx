@@ -4,7 +4,7 @@ import HomePage from '../components/HomePage';
 import './styles.scss';
 
 class App extends Component {
-	render() {
+	render () {
 		return <HomePage />;
 	}
 }

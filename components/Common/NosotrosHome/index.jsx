@@ -7,8 +7,9 @@ import './styles.scss';
 const NosotrosHome = () => {
 	return (
 		<Container className="nosotros-home">
-			<img className="nosotros-home__img" src={NosotrosImg} />
-			<div className="nosotros-home__img-cap" />
+			<div className="nosotros-home__img" >
+			<img src={NosotrosImg} />
+			<div className="nosotros-home__img-cap" />	
 			<div className="nosotros-home__content">
 				<p className="nosotros-home__content-title">Nosotros </p>
 				<div className="nosotros-home__divider" />
@@ -18,6 +19,8 @@ const NosotrosHome = () => {
 					soluciones para el sector empresarial.
 				</p>
 			</div>
+			</div>
+		
 		</Container>
 	);
 };

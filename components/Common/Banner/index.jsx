@@ -6,15 +6,17 @@ import './styles.scss';
 
 const Banner = () => (
   <Container className="banner">
-    <img className="banner__image" src={banner}></img>
-		<div className="banner__image-cap" />
-    <div className="banner__content">
-				<p className="banner__content-title">Servicios hechos por profesionales </p>
-				<p className="banner__content-subtitle">
-					Calidad y profesionalismo destacable
-				</p>
-        <button>Contáctanos</button>
+		<div className="banner__image" >
+			<img src={banner} />
+			<div className="banner__image-cap" />
+			<div className="banner__content">
+					<p className="banner__content-title">Servicios hechos por profesionales </p>
+					<p className="banner__content-subtitle">
+						Calidad y profesionalismo destacable
+					</p>
+					<button>Contáctanos</button>
 			</div>
+		</div>
   </Container>
 );
 
