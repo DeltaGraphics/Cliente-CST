@@ -1,19 +1,11 @@
 import React from 'react';
-import Link from 'next/link';
+import a from 'next/link';
 import { Container, Navbar } from 'react-bootstrap';
 import Logo from '../../../assets/images/logos/LogoFinal.png';
 
 import './styles.scss';
 
-const Menu = () => {
-	const data = [
-		{ text: 'Inicio', link: '/' },
-		{ text: 'Nosotros', link: '/nosotros' },
-		{ text: 'Servicios', link: '/servicios' },
-		{ text: 'Portafolio', link: '/portafolio' },
-		{ text: 'Contacto', link: '/contacto' },
-	];
-
+const Menu = ({ linkInicio, linkNosotros, linkContacto }) => {
 	return (
 		<Navbar
 			className="menu__container"
@@ -24,9 +16,11 @@ const Menu = () => {
 			<Container className="menu">
 				<img className="menu__icon" src={Logo} />
 				<ul className="menu__list">
-					{data.map((item) => (
-						<Link href={item.link}>{item.text}</Link>
-					))}
+					<a className={linkInicio} href="/">Inicio</a>
+					<a className={linkNosotros} href="/nosotros">Nosotros</a>
+					<a className="" href="/servicios">Servicios</a>
+					<a className="" href="/portafolio">Portafolio</a>
+					<a className={linkContacto} href="/contacto">Contacto</a>
 				</ul>
 			</Container>
 		</Navbar>

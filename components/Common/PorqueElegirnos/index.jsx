@@ -30,7 +30,7 @@ const PorqueElegirnos = () => {
 
 	return (
 		<Container className="porque-elegirnos">
-			<p className="porque-elegirnos__title"> ¿Por Que Elegirnos? </p>
+			<p className="porque-elegirnos__title"> ¿Por qué elegirnos? </p>
 			<div className="porque-elegirnos__divider" />
 			<ul className="porque-elegirnos__cards-container">
 				{data.map((item, index) => (

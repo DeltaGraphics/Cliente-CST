@@ -7,6 +7,7 @@
   justify-content: space-around;
   font-family: 'Segoe UI', sans-serif;
   &__first-column {
+    font-family: 'Segoe UI', sans-serif;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -22,6 +23,7 @@
     }
   }
   &__second-column {
+    font-family: 'Segoe UI', sans-serif;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -32,10 +34,12 @@
       padding: 5px;
     }
     a {
+      font-family: 'Segoe UI', sans-serif;
       color: $header-gray;
       text-decoration: none;
     }
     &__title {
+      font-family: 'Segoe UI', sans-serif;
       text-align: center;
       margin-top: 30px;
       font-size: 22px;
@@ -43,6 +47,7 @@
       font-weight: bold;
     }
     ul {
+      font-family: 'Segoe UI', sans-serif;
       display: flex;
       flex-direction: column;
       text-align: center;
@@ -51,17 +56,20 @@
       font-size: 14px;
       font-weight: bold;
       > a {
+      font-family: 'Segoe UI', sans-serif;
       margin-bottom: 20px;
       }
     }
   }
   &__third-column {
     width: 30%;
+    font-family: 'Segoe UI', sans-serif;
     img {
       width: 18px;
       height: auto;
     }
     li {
+      font-family: 'Segoe UI', sans-serif;
       list-style: none;
       margin-top: 15px;
       color: $header-gray;
@@ -69,12 +77,15 @@
       font-size: 14px;
     }
     span {
+      font-family: 'Segoe UI', sans-serif;
       margin-left: 10px;
     }
     &__first-p {
+      font-family: 'Segoe UI', sans-serif;
       margin-left: 30px;
     }
     &__p {
+      font-family: 'Segoe UI', sans-serif;
       margin-left: 70px;
       > img {
         width: 28px;
@@ -82,6 +93,7 @@
       }
     }
     &__title {
+      font-family: 'Segoe UI', sans-serif;
       margin-top: 30px;
       font-size: 22px;
       text-align: center;
@@ -90,16 +102,17 @@
     }
   }
   &__copyright {
+    font-family: 'Segoe UI', sans-serif;
     background-color: $red;
     color: $white;
     text-align: center;
     height: 40px;
     p {
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 14px;
       font-size: 12px;
       opacity: 0.8;
-      font-family: 'Segoe UI', sans-serif;
     }
   }
 }

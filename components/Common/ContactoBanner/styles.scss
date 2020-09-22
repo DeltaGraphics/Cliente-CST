@@ -1,0 +1,122 @@
+@import '../../../assets/stylesheets/utils.scss';
+
+.contacto-banner {
+  width: 70%;
+  font-family: 'Segoe UI', sans-serif;
+  &__image {
+    background-size: cover;
+        width: 70%;
+        height: 600px;
+        img {
+            width: 70%;
+            height: 600px;
+            position: absolute;
+        }
+    &-cap {
+      width: 70%;
+      height: 600px;
+      background-color: $black;
+      opacity: 0.6;
+      z-index: 2;
+      position: absolute;
+    }
+  }
+  &__content{
+    font-family: 'Segoe UI', sans-serif;
+    margin-left: 10px;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    &-main {
+      position: absolute;
+      z-index: 5;
+      display: flex;
+      margin-top: -80px;
+      margin-left: 70px;
+    }
+    &-title {
+      font-family: 'Segoe UI', sans-serif;
+      width: 65%;
+      z-index: 5;
+      font-size: 42px;
+      text-align: left;
+      margin-bottom: -5px;
+      font-weight: bold;
+      line-height: 58px;
+    }
+    &-subtitle {
+      font-family: 'Segoe UI', sans-serif;
+      width: 100%;
+      z-index: 5;
+      font-size: 22px;
+      font-weight: 100;
+    }
+    button {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: $red;
+      border: none;
+      color: $white;
+      width: 40%;
+      height: 40px;
+      font-weight: 300;
+      font-size: 18px;
+      margin-top: 30px;
+    }
+  }
+  &__divider {
+    background-color: $red;
+    height: 80px;
+    width: 3px;
+    margin-top: 200px;
+  }
+}
+
+.contacto-subbanner {
+  width: 70%;
+  font-family: 'Segoe UI', sans-serif;
+  &__image {
+    background-size: cover;
+    width: 70%;
+    height: 150px;
+        
+    &-cap {
+      width: 70%;
+      height: 150px;
+      background-color: $white;
+      opacity: 0.5;
+      z-index: 2;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  &__social-media-list {
+    display: flex;
+    list-style: none;
+    margin: 0 15% 0 0;
+    padding-top: 12px;
+    position: absolute;
+    z-index: 10;
+    justify-content: center;
+    width: 70%;
+    bottom: 50px;
+    > li > a > img{
+      position: relative;
+        width: 40px;
+        height: auto;
+        margin-right: 5px;
+    }
+  }
+  &__content{
+    font-family: 'Segoe UI', sans-serif;
+    margin-left: 10px;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+  }
+}

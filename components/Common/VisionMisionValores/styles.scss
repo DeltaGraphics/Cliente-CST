@@ -17,14 +17,17 @@
     color: $header-gray;
     font-size: 14px;
     line-height: 20px;
+    font-family: 'Segoe UI', sans-serif;
   }
   &__title {
+    font-family: 'Segoe UI', sans-serif;
     color: $red;
     font-weight: bold;
     font-size: 18px;
     padding: 20px 0;
   }
   p {
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
   }
 }

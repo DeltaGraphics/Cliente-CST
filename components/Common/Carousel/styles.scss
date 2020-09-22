@@ -1,0 +1,57 @@
+@import '../../../assets/stylesheets/utils.scss';
+
+.carousel {
+  &__single-img {
+    width: 200px;
+    height: auto;
+    max-height: 180px;
+  }
+  &__btn {
+    &-left, &-right {
+      background-color: $red;
+      z-index: 7;
+      position: absolute;
+      margin-top: 100px;
+    }
+    &-left {
+      left: 0;
+    }
+    &-right {
+      right: 0;
+    }
+  }
+}
+
+.alice-carousel {
+  position: absolute;
+  z-index: 5;
+  // width: 80%;
+  // margin: 0 10%;
+}
+
+.alice-carousel__wrapper {
+  height: 200px;
+  margin-bottom: -30px;
+}
+
+.alice-carousel__prev-btn-item {
+  color: $header-gray;
+}
+
+.alice-carousel__next-btn-item {
+  color: $header-gray;
+}
+
+.alice-carousel__stage {
+  padding-left: -5px !important;
+}
+
+.alice-carousel__dots {
+  > li {
+    background-color: $header-gray;
+  }
+}
+
+.alice-carousel__dots-item.__active {
+  background-color: $red;
+}

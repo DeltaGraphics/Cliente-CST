@@ -6,7 +6,6 @@
         background-size: cover;
         width: 100%;
         height: 285px;
-        cursor: pointer;
         img {
             width: 100%;
             height: 285px;
@@ -32,6 +31,7 @@
         color: $white;
         font-weight: 500;
         &-subtitle {
+            font-family: 'Segoe UI', sans-serif;
             width: 80%;
             z-index: 5;
             font-size: 42px;

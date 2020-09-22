@@ -9,20 +9,25 @@ import cables from '../../../assets/images/cables.jpg';
 import './styles.scss';
 
 const NuestrosServicios = () => {
-	const images = [ hero, giga, code, cables, hero, giga, code, cables, hero, giga ];
+	const images = [ hero, giga, code, cables, hero, giga, code, cables];
 
 	return (
-		<Container className="nuestro-portafolio">
+		<a href="/portafolio" className="nuestro-portafolio">
 			<p className="nuestro-portafolio__title">
 				Nuestro Portafolio
 			</p>
 			<div className="nuestro-portafolio__divider" />
 			<div className="nuestro-portafolio__images">
 				{images.map(item => (
-					<img src={item} />
+					<>
+					<div className="nuestro-portafolio__img">
+						<img src={item} />
+						<p className="nuestro-portafolio__text">Ver más</p>
+					</div>
+					</>
 				))}
 			</div>
-		</Container>
+		</a>
 	);
 };
 

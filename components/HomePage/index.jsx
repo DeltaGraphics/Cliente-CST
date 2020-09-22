@@ -16,7 +16,7 @@ import './styles.scss';
 const HomePage = () => (
 	<Container className="home-page">
 		<Navbar />
-		<Menu />
+		<Menu linkInicio="home-page__current-link" />
 		<img className="home-page__hero-img" src={HeroImg} />
 		<NosotrosHome />
 		<PorqueElegirnos />
