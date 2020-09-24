@@ -1,10 +1,11 @@
 import { Component } from 'react';
+import PortafolioPage from '../components/Portafolio';
 
 import './styles.scss';
 
 class Portafolio extends Component {
-	render() {
-		return <>Pronto pagina de portafolio</>;
+	render () {
+		return <PortafolioPage />;
 	}
 }
 

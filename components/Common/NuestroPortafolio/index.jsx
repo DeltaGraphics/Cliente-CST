@@ -5,7 +5,6 @@ import giga from '../../../assets/images/gigabit.jpg';
 import code from '../../../assets/images/code.jpg';
 import cables from '../../../assets/images/cables.jpg';
 
-
 import './styles.scss';
 
 const NuestrosServicios = () => {
