@@ -52,8 +52,7 @@ const NuestrosServicios = () => {
 	return (
 		<Container className="nuestros-servicios">
 			<p className="nuestros-servicios__title">
-				{' '}
-				Nuestros Servicios{' '}
+				Nuestros Servicios
 			</p>
 			<div className="nuestros-servicios__divider" />
 			<ul className="nuestros-servicios__cards-container">

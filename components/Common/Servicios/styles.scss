@@ -1,0 +1,45 @@
+@import '../../../assets/stylesheets/utils.scss';
+
+.nuestros-servicios {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  background-color: #f7f7f7;
+  &__card {
+    width: 25%;
+    height: 190px;
+    background-color: $white;
+    margin: 40px 1px;
+    &-header {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: $red;
+      color: $white;
+      display: flex;
+      align-items: center;
+      padding-left: 25px;
+      height: 35px;
+      font-size: 16px;
+    }
+  }
+  &__info {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 12px;
+    padding: 0 10px 10px;
+    margin-top: -10px;
+    color: $header-gray;
+  }
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    border: 3px solid $white;
+    background-color: $red;
+  }
+  p {
+    font-family: 'Segoe UI', sans-serif;
+    width: 95%;
+    line-height: 16px;
+  }
+}

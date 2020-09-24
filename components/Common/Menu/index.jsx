@@ -5,7 +5,7 @@ import Logo from '../../../assets/images/logos/LogoFinal.png';
 
 import './styles.scss';
 
-const Menu = ({ linkInicio, linkNosotros, linkContacto, linkPortafolio }) => {
+const Menu = ({ linkInicio, linkNosotros, linkContacto, linkPortafolio, linkServicios }) => {
 	return (
 		<Navbar
 			className="menu__container"
@@ -18,7 +18,7 @@ const Menu = ({ linkInicio, linkNosotros, linkContacto, linkPortafolio }) => {
 				<ul className="menu__list">
 					<a className={linkInicio} href="/">Inicio</a>
 					<a className={linkNosotros} href="/nosotros">Nosotros</a>
-					<a className="" href="/servicios">Servicios</a>
+					<a className={linkServicios} href="/servicios">Servicios</a>
 					<a className={linkPortafolio} href="/portafolio">Portafolio</a>
 					<a className={linkContacto} href="/contacto">Contacto</a>
 				</ul>
