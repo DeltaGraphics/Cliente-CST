@@ -14,7 +14,7 @@ const Menu = ({ linkInicio, linkNosotros, linkContacto, linkPortafolio, linkServ
 			bg="light"
 		>
 			<Container className="menu">
-				<img className="menu__icon" src={Logo} />
+				<a href="/" className="menu__icon"><img src={Logo} /></a>
 				<ul className="menu__list">
 					<a className={linkInicio} href="/">Inicio</a>
 					<a className={linkNosotros} href="/nosotros">Nosotros</a>
