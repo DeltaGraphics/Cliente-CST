@@ -10,6 +10,7 @@
   &__column {
     width: 50%;
     img {
+      margin-top: 17px;
       width: 450px;
       height: auto;
     }
@@ -28,6 +29,7 @@
     line-height: 25px;
   }
   &__btn {
+    display: flex;
     font-family: 'Segoe UI', sans-serif;
     height: 40px;
     border-radius: 10px;
@@ -35,5 +37,12 @@
     background-color: #48484991;
     border: none;
     font-size: 16px;
+    text-decoration: none;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: $red;
+    }
   }
 }

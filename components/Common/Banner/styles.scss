@@ -49,7 +49,7 @@
       font-size: 22px;
       font-weight: 100;
     }
-    button {
+    &__button {
       font-family: 'Segoe UI', sans-serif;
       background-color: $red;
       border: none;
@@ -60,7 +60,10 @@
       margin-left: 17%;
       font-weight: 300;
       font-size: 20px;
-      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
     }
   }
 }

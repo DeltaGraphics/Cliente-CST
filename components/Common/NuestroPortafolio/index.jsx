@@ -21,7 +21,7 @@ const NuestrosServicios = () => {
 					<>
 					<div className="nuestro-portafolio__img">
 						<img src={item} />
-						<p className="nuestro-portafolio__text">Ver más</p>
+						<p className="nuestro-portafolio__text">+</p>
 					</div>
 					</>
 				))}
