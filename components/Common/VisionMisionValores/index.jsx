@@ -14,9 +14,12 @@ const VisionMisionValores = () => {
 	return (
 			<Container className="vmv">
         {data.map(item => (
+          <div>
           <div className="vmv__column">
             <p className="vmv__title">{item.title}</p>
             <div className="vmv__description" dangerouslySetInnerHTML={{ __html: item.description }} />
+          </div>
+          <div className="vmv__divider"/>
           </div>
         ))}
         <p></p>
