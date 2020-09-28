@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import banner from '../../../assets/images/banner.png';
 
 import './styles.scss';
@@ -14,7 +14,7 @@ const Banner = () => (
 					<p className="banner__content-subtitle">
 						Calidad y profesionalismo destacable
 					</p>
-					<button>Contáctanos</button>
+					<Button href="/contacto" className="banner__content__button">Contáctanos</Button>
 			</div>
 		</div>
   </Container>
