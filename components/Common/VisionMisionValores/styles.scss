@@ -3,7 +3,7 @@
 .vmv {
   display: flex;
   font-family: 'Segoe UI', sans-serif;
-  justify-content: space-around;
+  justify-content: center;
   margin: -100px 8% 0;
   padding: 20px 2%;
   background-color: $white;
@@ -16,7 +16,7 @@
     &:nth-last-child(2) {
       text-align: center;
       .vmv__divider {
-        display: none;
+        background-color: $white;
       }
     }
   }
@@ -27,8 +27,7 @@
     height: 115px;
     width: 2px;
     background-color: $red;
-    margin-left: 10px;
-    margin-top: 50px;
+    margin: 50px 20px 0 10px
   }
   &__column {
     display: flex;
