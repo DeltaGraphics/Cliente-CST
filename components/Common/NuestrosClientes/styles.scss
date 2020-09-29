@@ -1,0 +1,40 @@
+@import '../../../assets/stylesheets/utils.scss';
+
+.nuestros-clientes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    &__title {
+        font-size: 32px;
+        text-align: center;
+        color: $header-gray;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    &__divider {
+        height: 2px;
+        background-color: $red;
+        width: 200px;
+        align-self: center;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    &__images {
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    &__img {
+        height: 90px;
+        margin-top: -6px;
+        padding: 10px 35px;
+        &-img {
+            height: 90px;
+        }
+    }
+    &__text {
+        display: none;
+    }
+}

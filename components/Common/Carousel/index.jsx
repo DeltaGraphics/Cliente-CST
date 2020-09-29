@@ -70,9 +70,6 @@ class Gallery extends React.Component {
           onSlideChanged={this.handleOnSlideChange}
           onResized={this.handleOnSlideChange}
         />
-
-        {/* <button className="carousel__btn-left" onClick={() => this.slidePrev()}>Prev button</button>
-        <button className="carousel__btn-right" onClick={() => this.slideNext()}>Next button</button> */}
       </div>
     )
   }

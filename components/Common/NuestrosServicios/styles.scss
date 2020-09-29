@@ -1,6 +1,6 @@
 @import '../../../assets/stylesheets/utils.scss';
 
-.nuestros-servicios {
+.nuestros-servicios-home {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -60,7 +60,7 @@
     justify-content: center;
     width: 126px;
     margin: auto;
-    height: 30px;
+    height: auto;
     padding: 8px;
     border: none;
     color: $header-gray;
@@ -68,8 +68,10 @@
     border-radius: 10px;
     margin-bottom: 65px;
     margin-top: -25px;
+    text-decoration: none;
     &:hover {
         color: $white;
         background-color: $red;
     }
 }
+

@@ -12,8 +12,10 @@
     top: 0;
     z-index: 1071;
     &__icon {
-        width: 220px;
         margin: 0 0 0 14%;
+        img {
+            width: 220px;
+        }
     }
     &__list {
         font-family: 'Segoe UI', sans-serif;
@@ -46,5 +48,13 @@
 }
 
 .nosotros__current-link {
+    color: $red !important;
+}
+
+.portafolio__current-link {
+    color: $red !important;
+}
+
+.servicios__current-link {
     color: $red !important;
 }

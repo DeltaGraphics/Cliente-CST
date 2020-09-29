@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import cables from '../../../assets/images/cables.jpg';
 
 import './styles.scss';
@@ -13,7 +13,7 @@ const Banner = () => (
         <p>Nuestra Red regional de Fibra Óptica redundante y nuestra infraestructura tecnológica, nos permite brindar servicios de telecomunicaciones con los niveles de sostenibilidad más exigentes.</p>
         <p>Contamos con una estructura de servicios profesionales compuesta por el personal técnico de más alto nivel, especializados y certificados en cada una de las líneas de productos de tecnología de última generación que ofrecemos a nuestros clientes.</p>
       </p>
-      <button className="description__btn">Nuestros Servicios</button>
+      <Button href="/servicios" className="description__btn">Nuestros Servicios</Button>
     </di>
     <di className="description__column">
       <img src={cables} />

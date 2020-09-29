@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import ControlImg from '../../../assets/images/icons/smart-lock.svg';
 import ConectividadImg from '../../../assets/images/icons/conection.svg';
 import CallCenterImg from '../../../assets/images/icons/technical-support.svg';
@@ -50,29 +50,28 @@ const NuestrosServicios = () => {
 	];
 
 	return (
-		<Container className="nuestros-servicios">
-			<p className="nuestros-servicios__title">
-				{' '}
-				Nuestros Servicios{' '}
+		<Container className="nuestros-servicios-home">
+			<p className="nuestros-servicios-home__title">
+				Nuestros Servicios
 			</p>
-			<div className="nuestros-servicios__divider" />
-			<ul className="nuestros-servicios__cards-container">
+			<div className="nuestros-servicios-home__divider" />
+			<ul className="nuestros-servicios-home__cards-container">
 				{data.map((item, index) => (
-					<li className="nuestros-servicios__card">
+					<li className="nuestros-servicios-home__card">
 						<img
-							className="nuestros-servicios__card-img"
+							className="nuestros-servicios-home__card-img"
 							src={item.img}
 						/>
-						<p className="nuestros-servicios__card-title">
+						<p className="nuestros-servicios-home__card-title">
 							{item.title}
 						</p>
-						<p className="nuestros-servicios__card-content">
+						<p className="nuestros-servicios-home__card-content">
 							{item.content}
 						</p>
 					</li>
 				))}
 			</ul>
-    	<button className="button__ver-mas">Ver más</button>
+    	<Button href="/servicios" className="button__ver-mas">Ver más</Button>
 		</Container>
 	);
 };
