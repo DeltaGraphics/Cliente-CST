@@ -24,7 +24,6 @@
     font-family: 'Segoe UI', sans-serif;
     position: absolute;
     right: 0;
-    margin-left: 20px;
     color: $white;
     z-index: 5;
     display: flex;
@@ -32,6 +31,10 @@
     width: 40%;
     height: 650px;
     justify-content: center;
+    margin-top: -45px;
+    p {
+      margin-left: 30px;
+    }
     &-title {
       font-family: 'Segoe UI', sans-serif;
       width: 65%;
@@ -57,7 +60,7 @@
       color: $white;
       width: 30%;
       height: 40px;
-      margin-left: 17%;
+      margin-left: 21%;
       font-weight: 300;
       font-size: 20px;
       display: flex;

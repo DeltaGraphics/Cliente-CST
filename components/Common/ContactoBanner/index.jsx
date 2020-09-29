@@ -18,7 +18,7 @@ const icons = [
 const ContactoBanner = () => (
   <Container className="contacto-banner">
 		<div className="contacto-banner__image" >
-			<img src={Banner} />
+			<img className="contacto-banner__image-img" src={Banner} />
 			<div className="contacto-banner__image-cap" />
 			<div className="contacto-banner__content-main">
 				<div className="contacto-banner__divider"/>
@@ -30,21 +30,16 @@ const ContactoBanner = () => (
 					<button>Enviar un mensaje</button>
 				</div>
 			</div>
-			<div className="contacto-subbanner__image" >
-				<div className="contacto-subbanner__image-cap" />
-				<div className="contacto-subbanner__content">
-				<ul className="contacto-subbanner__social-media-list">
-					{icons.map((item) => (
-						<li>
-							<a href={item.link}>
-								<img src={item.icon} />
-							</a>
-						</li>
-					))}
-				</ul>
-				</div>
-			</div>
 		</div>
+			<ul className="contacto-banner__social-media-list">
+						{icons.map((item) => (
+							<li>
+								<a href={item.link}>
+									<img className="contacto-banner__social-media-icon" src={item.icon} />
+								</a>
+							</li>
+						))}
+				</ul>
   </Container>
 );
 

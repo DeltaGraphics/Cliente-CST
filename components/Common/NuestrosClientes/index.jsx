@@ -21,7 +21,7 @@ const NuestrosClientes = () => {
 				{images.map(item => (
 					<>
 					<div className="nuestros-clientes__img">
-						<img src={item} />
+						<img className="nuestros-clientes__img-img" src={item} />
 						<p className="nuestros-clientes__text">Ver más</p>
 					</div>
 					</>

@@ -24,29 +24,14 @@
         width: 100%;
         margin-top: 40px;
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
     }
     &__img {
-        width: auto;
         height: 90px;
         margin-top: -6px;
         padding: 10px 35px;
-        img {
-            width: 100%;
+        &-img {
             height: 90px;
-        }
-        &:hover {
-            transform: scale(1.1); 
-            transition: transform 2s;
-            filter: brightness(50%);
-            .nuestro-portafolio__text {
-                display: flex;
-                z-index: 5;
-                text-align: center;
-                margin: -140px 40% 0;
-                color: $white;
-            }
         }
     }
     &__text {

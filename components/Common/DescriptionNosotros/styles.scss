@@ -1,18 +1,17 @@
 @import '../../../assets/stylesheets/utils.scss';
 
 .description {
-  margin: 200px 10% 0;
+  margin: 50px 10% 0;
   width: 80%;
   display: flex;
   color: $header-gray;
   font-family: 'Segoe UI', sans-serif;
   justify-content: space-between;
   &__column {
-    width: 50%;
     img {
-      margin-top: 17px;
+      margin-top: 5px;
       width: 450px;
-      height: auto;
+      height: 400px;
     }
   }
   &__title {
@@ -25,8 +24,11 @@
     font-family: 'Segoe UI', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    width: 80%;
+    width: 100%;
     line-height: 25px;
+    > p {
+      margin-right: 20px;
+    }
   }
   &__btn {
     display: flex;
