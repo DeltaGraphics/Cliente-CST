@@ -12,7 +12,7 @@ const UltimosTrabajos = () => {
 	return (
     <Container className="ultimos-trabajos">
 			<p className="ultimos-trabajos__title">
-				Nuestros Clientes
+				Trabajos Recientes
 			</p>
 			<div className="ultimos-trabajos__divider" />
       <div className="ultimos-trabajos__cards" >

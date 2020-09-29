@@ -1,56 +1,69 @@
 @import '../../../assets/stylesheets/utils.scss';
 
 .vmv {
-  display: flex;
-  font-family: 'Segoe UI', sans-serif;
-  justify-content: center;
-  margin: -100px 8% 0;
-  padding: 20px 2%;
-  background-color: $white;
+  padding: 50px 10% 50px;
+  margin: 50px 0 -43px;
   width: 80%;
-  position: absolute;
-  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.66);
-  > div {
-    display: flex;
-    width: 30%;
-    &:nth-last-child(2) {
-      text-align: center;
-      .vmv__divider {
-        background-color: $white;
-      }
-    }
-  }
-  &__card {
-    display: flex;
-  }
-  &__divider {
-    height: 115px;
-    width: 2px;
-    background-color: $red;
-    margin: 50px 20px 0 10px
-  }
+  display: flex;
+  color: $header-gray;
+  font-family: 'Segoe UI', sans-serif;
+  justify-content: space-between;
+  background-color: #f7f7f7;
   &__column {
-    display: flex;
-    flex-direction: column;
-    color: $header-gray;
-    font-size: 14px;
-    line-height: 20px;
-    font-family: 'Segoe UI', sans-serif;
-    width: 98%;
-    &:nth-child(3) {
-      text-align: center;
+    img {
+      margin-top: 5px;
+      width: 450px;
+      height: 400px;
     }
   }
-  &__title {
-    font-family: 'Segoe UI', sans-serif;
-    color: $red;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 20px 0;
-    text-align: center;
+  &__description-column {
+    padding-left: 20px;
   }
-  p {
+  &__description {
+    display: flex;
+    padding-left: 20px;
+    margin-top: 50px;
+    p {
+      width: 20%;
+      display: flex;
+      color: $header-gray;
+      align-items: center;
+      font-weight: bold;
+    }
+    div {
+      width: 80%;
+    }
+    div > p {
+      color: $header-gray;
+      width: 100%;
+      font-weight: normal;
+    }
+  }
+  &__vmv { 
     font-family: 'Segoe UI', sans-serif;
-    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 25px;
+    > p {
+      margin-right: 20px;
+    }
+  }
+  &__btn {
+    display: flex;
+    font-family: 'Segoe UI', sans-serif;
+    height: 40px;
+    border-radius: 10px;
+    color: $white;
+    background-color: #48484991;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: $red;
+    }
   }
 }

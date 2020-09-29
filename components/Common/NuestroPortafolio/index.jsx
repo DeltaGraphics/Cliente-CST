@@ -1,9 +1,9 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import hero from '../../../assets/images/hero.jpg';
 import giga from '../../../assets/images/gigabit.jpg';
 import code from '../../../assets/images/code.jpg';
 import cables from '../../../assets/images/cables.jpg';
+import plus from '../../../assets/images/icons/plus.svg';
 
 import './styles.scss';
 
@@ -20,8 +20,8 @@ const NuestrosServicios = () => {
 				{images.map(item => (
 					<>
 					<div className="nuestro-portafolio__img">
-						<img src={item} />
-						<p className="nuestro-portafolio__text">+</p>
+						<img className="nuestro-portafolio__img-img"src={item} />
+						<p className="nuestro-portafolio__text"><img className="nuestro-portafolio__icon" src={plus} /></p>
 					</div>
 					</>
 				))}
