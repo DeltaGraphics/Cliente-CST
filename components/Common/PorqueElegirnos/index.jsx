@@ -18,13 +18,13 @@ const PorqueElegirnos = () => {
 			img: Code,
 			title: 'Servicio Efectivo',
 			content:
-				'Sistemas de rápida impletamentación, prácticos y de fácil monitoreo, ideales para uso residencial y empresarial.',
+				'Tenemos la experiencia, el conocimiento y la libertad para identificar las soluciones tecnológicas adecuadas para cada cliente y cada proyecto.',
 		},
 		{
 			img: Cables,
 			title: 'Personal Profesional',
 			content:
-				'Sistemas de rápida impletamentación, prácticos y de fácil monitoreo, ideales para uso residencial y empresarial.',
+				'Nuestro equipo está conformado por profesionales expertos en tecnología informática, consultoría integral de proyectos, comunicación y atención al cliente.',
 		},
 	];
 

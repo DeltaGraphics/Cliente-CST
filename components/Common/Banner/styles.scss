@@ -2,6 +2,7 @@
 
 .banner {
   font-family: 'Segoe UI', sans-serif;
+  margin-top: -80px;
   &__image {
     background-size: cover;
         width: 100%;
@@ -47,7 +48,6 @@
     }
     &-subtitle {
       font-family: 'Segoe UI', sans-serif;
-      width: 100%;
       z-index: 5;
       font-size: 22px;
       font-weight: 100;

@@ -15,37 +15,37 @@ const NuestrosServicios = () => {
 			img: ControlImg,
 			title: 'Control de Acceso',
 			content:
-				'Sistemas de rápida impletamentación, prácticos y de fácil monitoreo, ideales para uso residencial y empresarial. ',
+				'Acceso en puertas con sistemas biométricos, control de acceso fisico. ',
 		},
 		{
 			img: ConectividadImg,
 			title: 'Conectividad de Red',
 			content:
-				'Sistemas de rápida impletamentación, prácticos y de fácil monitoreo, ideales para uso residencial y empresarial.',
+				'Conectividad a Internet con conexión Tier2 directamente al Backbone en Miami, FL Acceso con Bandwidth garantizado de 5Mbps hasta 1Gbps',
 		},
 		{
 			img: CallCenterImg,
 			title: 'Call Center',
 			content:
-				'Sistemas de rápida impletamentación, prácticos y de fácil monitoreo, ideales para uso residencial y empresarial.',
+				'Alojamiento físico de servidores en nuestro Datacentrer',
 		},
 		{
 			img: VideoImg,
 			title: 'Video Vigilancia',
 			content:
-				'Sistemas de rápida impletamentación, prácticos y de fácil monitoreo, ideales para uso residencial y empresarial.',
+				'Sistemas de rápida implementación, prácticos y de fácil monitoreo, ideales para uso residencial y empresarial.',
 		},
 		{
 			img: CallImg,
 			title: 'Telefonía IP',
 			content:
-				'Sistemas de rápida impletamentación, prácticos y de fácil monitoreo, ideales para uso residencial y empresarial.',
+				'Diseño e implementación de sistemas de comunicación unificada sobre IP',
 		},
 		{
 			img: DocImg,
 			title: 'Domotica y Automatización',
 			content:
-				'Sistemas de rápida impletamentación, prácticos y de fácil monitoreo, ideales para uso residencial y empresarial.',
+				'Integración de sistemas de automatización y control inteligente en viviendas.',
 		},
 	];
 

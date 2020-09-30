@@ -8,6 +8,7 @@ import PorqueElegirnos from '../Common/PorqueElegirnos';
 import NuestrosServicios from '../Common/NuestrosServicios';
 import ContactanosHome from '../Common/ContactanosHome';
 import NuestroPortafolio from '../Common/NuestroPortafolio';
+import CarouselHome from '../Common/CarouselHome';
 import Footer from '../Common/Footer';
 import Banner from '../Common/Banner';
 
@@ -17,7 +18,8 @@ const HomePage = () => (
 	<Container className="home-page">
 		<Navbar />
 		<Menu linkInicio="home-page__current-link" />
-		<img className="home-page__hero-img" src={HeroImg} />
+		{/* <img className="home-page__hero-img" src={HeroImg} /> */}
+		<CarouselHome />
 		<NosotrosHome />
 		<PorqueElegirnos />
 		<NuestrosServicios />

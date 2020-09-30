@@ -27,24 +27,24 @@ const NavbarInfo = () => {
 
 	return (
 		<Navbar expand="lg" variant="light" bg="light">
-			<Container className="navbar">
-				<ul className="navbar__info-list">
+			<Container className="sub-navbar">
+				<ul className="sub-navbar__info-list">
 					{data.map((item) => (
 						<>
 							<img
-								className="navbar__info-list__icon"
+								className="sub-navbar__info-list__icon"
 								src={item.icon}
 							/>
 							<li>{item.info}</li>
 						</>
 					))}
 				</ul>
-				<ul className="navbar__social-media-list">
+				<ul className="sub-navbar__social-media-list">
 					{icons.map((item) => (
 						<li>
 							<Link href={item.link}>
 								<img
-									className="navbar__social-media-list__icon"
+									className="sub-navbar__social-media-list__icon"
 									src={item.icon}
 								/>
 							</Link>

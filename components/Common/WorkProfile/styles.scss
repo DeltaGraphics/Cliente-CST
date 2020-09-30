@@ -1,0 +1,71 @@
+@import '../../../assets/stylesheets/utils.scss';
+
+.work-profile {
+  margin: 50px 10% 0;
+  width: 80%;
+  display: flex;
+  color: $header-gray;
+  font-family: 'Segoe UI', sans-serif;
+  justify-content: space-between;
+  &__column {
+    width: 50%;
+    &-img {
+      margin-top: 5px;
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__title {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 32px;
+    font-weight: bold;  
+    margin-top: 0;
+  }
+  &__description { 
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 25px;
+    > ul {
+      padding-left: 0;
+      list-style: none;
+      > li {
+        padding-top: 25px;
+        font-weight: bold;
+        font-size: 22px;
+        > span {
+          font-size: 18px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  &__btn {
+    display: flex;
+    font-family: 'Segoe UI', sans-serif;
+    height: 40px;
+    border-radius: 10px;
+    color: $white;
+    background-color: #48484991;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: $red;
+    }
+  }
+}
+
+.gallery__column {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  &-img {
+    width: 180px;
+    height: auto;
+  }
+}

@@ -1,0 +1,14 @@
+@import '../../assets/stylesheets/utils.scss';
+
+.portafolio-single-page {
+  width: 100%;
+  &__image {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+}

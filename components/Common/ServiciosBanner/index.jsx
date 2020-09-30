@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Banner from '../../../assets/images/hero-servicios.jpg';
+import Banner from '../../../assets/images/Servicios.jpg';
 
 import './styles.scss';
 
