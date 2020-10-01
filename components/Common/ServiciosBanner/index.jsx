@@ -13,7 +13,7 @@ const ServiciosBanner = () => (
       <p className="servicios-banner__content__title">
 				Nuestros Servicios
 			</p>
-			<div className="servicios-banner__content__divider" />
+			<p className="servicios-banner__content-subtitle">Conoce lo que ofrecemos para ti </p>
 			</div>
 		</div>
   </Container>
