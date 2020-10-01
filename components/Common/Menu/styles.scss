@@ -29,6 +29,9 @@
             font-weight: 400;
             color: $header-gray;
             text-decoration: none;
+            &:hover {
+                text-decoration: underline $red;
+            }
         }
     }
     &__container {
@@ -58,3 +61,56 @@
 .servicios__current-link {
     color: $red !important;
 }
+
+@media (max-width: $large) {
+    .menu {
+        &__list {
+            display: none;
+        }
+        &__icon {
+            margin: 0 0 0 4%;
+        }
+    }
+
+}
+
+@media (min-width: $large) {
+    .menu-activador {
+        display: none;
+    }
+}
+
+.menu-activador {
+    width: 30px;
+    height: 20px;
+    margin: auto 5% auto 0;
+    #lanzador {
+      position: absolute;
+      left: -9999px;
+    }
+    label {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;  
+      cursor: pointer;
+    }
+    .menu-activador-linea {
+      height: 2px;
+      background-color: #000;
+      opacity: 1;
+      transform: translateY(0) rotate(0);
+      transition: all 0.3s;
+    }
+    #lanzador:checked ~ label .menu-activador-linea {
+      &:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: translateY(-9px)rotate(-45deg);
+      }
+    }
+  }

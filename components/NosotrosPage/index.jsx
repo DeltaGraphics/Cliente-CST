@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import Navbar from '../Common/Navbar';
 import Menu from '../Common/Menu';
 import Footer from '../Common/Footer';
-import HeroImg from '../../assets/images/nosotrosbanner.png';
+import HeroImg from '../../assets/images/nosotros.jpg';
 import VisionMisionValores from '../Common/VisionMisionValores';
 import Description from '../Common/DescriptionNosotros';
 import NosotrosCompanies from '../Common/NosotrosCompanies';

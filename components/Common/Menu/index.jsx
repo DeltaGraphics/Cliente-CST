@@ -22,6 +22,14 @@ const Menu = ({ linkInicio, linkNosotros, linkContacto, linkPortafolio, linkServ
 					<a className={linkPortafolio} href="/portafolio">Portafolio</a>
 					<a className={linkContacto} href="/contacto">Contacto</a>
 				</ul>
+				<div class="menu-activador">
+						<input type="checkbox" id="lanzador" />
+						<label for="lanzador">
+							<span class="menu-activador-linea"></span>
+							<span class="menu-activador-linea"></span>
+							<span class="menu-activador-linea"></span>
+						</label>
+				</div>
 			</Container>
 		</Navbar>
 	);
