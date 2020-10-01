@@ -12,7 +12,7 @@ const ContactanosHome = () => {
 			<div className="contactanos-home__img-cap" />
 			<div className="contactanos-home__content">
 				<p className="contactanos-home__content-subtitle">
-					Contactanos con una estructura de servicios profesionales
+					Contamos con una estructura de servicios profesionales
 					compuesta por el personal técnico de más alto nivel
 				</p>
 			</div>

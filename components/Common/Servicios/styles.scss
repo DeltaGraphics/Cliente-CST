@@ -9,8 +9,8 @@
   background-color: $white;
   margin: 0 10%;
   &__card {
-    width: 25%;
-    height: 200px;
+    width: 28%;
+    height: 310px;
     background-color: $white;
     margin: 40px 1px 10px;
     box-shadow: 0px 0px 10px rgba(100,100,100,0.5);
@@ -27,9 +27,9 @@
   }
   &__info {
     font-family: 'Segoe UI', sans-serif;
-    font-size: 12px;
-    padding: 0 10px 10px;
-    margin-top: -10px;
+    font-size: 15px;
+    padding: 2px 21px 10px;
+    margin-top: 15px;
     color: $header-gray;
     p {
       margin: 6px 0;

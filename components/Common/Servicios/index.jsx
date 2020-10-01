@@ -21,7 +21,7 @@ const NuestrosServicios = () => {
 	return (
 			<div className="nuestros-servicios">
 				{services.map(item => (
-        <Card className="nuestros-servicios__card" style={{ width: '25%' }}>
+        <Card className="nuestros-servicios__card" >
           <Card.Header className="nuestros-servicios__card-header"><p>{item.title}</p><img src={item.icon} /></Card.Header>
           <Card.Body>
             <Card.Text>
