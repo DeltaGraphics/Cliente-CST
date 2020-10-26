@@ -70,3 +70,47 @@
     }
   }
 }
+
+@media (max-width: $large) {
+  .banner {
+    &__content{
+      position: relative;
+      width: 100%;
+      align-items: center;
+      p {
+        margin-left: 0;
+      }
+      &-title {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+      }
+      &-subtitle {
+        text-align: center;
+      }
+      &__button {
+        margin-left: 0;
+        width: 30%;
+      }
+    }
+  }
+}
+
+@media (max-width: $small) {
+  .banner {
+    &__content{
+      &-title {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+      }
+      &-subtitle {
+        text-align: center;
+      }
+      &__button {
+        margin-left: 0;
+        width: 50%;
+      }
+    }
+  }
+}

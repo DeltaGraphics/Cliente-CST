@@ -39,7 +39,7 @@
         }
         &:hover {
             transform: scale(1.1); 
-            transition: transform 2s;
+            transition: transform 5s;
             .nuestro-portafolio__text {
                 display: flex;
                 z-index: 5;
@@ -57,5 +57,38 @@
     }
     &__text {
         display: none;
+    }
+}
+
+@media (max-width: $xmedium) {
+    .nuestro-portafolio {
+        &__images {
+            margin: 40px 4.5% 0;
+        }
+        &__img {
+            width: 30%;
+        }
+    }
+}
+
+@media (max-width: $xmedium) {
+    .nuestro-portafolio {
+        &__images {
+            margin: 40px 15% 0;
+        }
+        &__img {
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width: $small) {
+    .nuestro-portafolio {
+        &__images {
+            margin: 40px 5% 0;
+        }
+        &__img {
+            width: 90%;
+        }
     }
 }

@@ -1,3 +1,5 @@
+@import '../../assets/stylesheets/utils.scss';
+
 .contactanos {
   width: 100%;
   &__hero {
@@ -12,5 +14,13 @@
   &__location {
     width: 65%;
     height: 500px;
+  }
+}
+
+@media (max-width: $xmedium) {
+  .contactanos {
+    &__hero {
+      flex-wrap: wrap;
+    }
   }
 }

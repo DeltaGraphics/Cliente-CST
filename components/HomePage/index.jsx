@@ -18,7 +18,6 @@ const HomePage = () => (
 	<Container className="home-page">
 		<Navbar />
 		<Menu linkInicio="home-page__current-link" />
-		{/* <img className="home-page__hero-img" src={HeroImg} /> */}
 		<CarouselHome />
 		<NosotrosHome />
 		<PorqueElegirnos />

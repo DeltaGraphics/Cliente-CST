@@ -1,19 +1,23 @@
 @import '../../../assets/stylesheets/utils.scss';
 
 .nuestros-servicios {
-  width: 80%;
+  width: 90%;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 40px;
   background-color: $white;
-  margin: 0 10%;
+  margin: 0 5%;
+  justify-content: center;
   &__card {
-    width: 28%;
-    height: 310px;
+    align-items: center;
     background-color: $white;
-    margin: 40px 1px 10px;
     box-shadow: 0px 0px 10px rgba(100,100,100,0.5);
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    justify-content: center;
+    margin: 10px 1% 10px;
+    width: 30%;
     &-header {
       font-family: 'Segoe UI', sans-serif;
       background-color: $red;
@@ -40,11 +44,26 @@
     height: 40px;
     border-radius: 25px;
     border: 3px solid $white;
-    background-color: $red;
   }
   p {
     font-family: 'Segoe UI', sans-serif;
-    width: 95%;
+    width: 100%;
     line-height: 16px;
+  }
+}
+
+@media (max-width: $xmedium) {
+  .nuestros-servicios {
+    &__card {
+      width: 40%;
+    }
+  }
+}
+
+@media (max-width: $small) {
+  .nuestros-servicios {
+    &__card {
+      width: 80%;
+    }
   }
 }

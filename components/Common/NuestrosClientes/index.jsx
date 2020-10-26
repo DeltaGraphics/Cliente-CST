@@ -5,11 +5,13 @@ import ucateci from '../../../assets/images/ucateci.png';
 import sol from '../../../assets/images/Farmacia-el-sol.png';
 import coopedac from '../../../assets/images/Coopedac.png';
 import vegareal from '../../../assets/images/69-COOPERATIVA-VEGA-REAL.jpg';
+import beia from '../../../assets/images/Beia.png';
+import coopopular from '../../../assets/images/coopopular.png';
 
 import './styles.scss';
 
 const NuestrosClientes = () => {
-	const images = [ alaver, ucateci, sol, coopedac, vegareal ];
+	const images = [ alaver, ucateci, sol, coopedac, vegareal, beia, coopopular ];
 
 	return (
     <Container className="nuestros-clientes">

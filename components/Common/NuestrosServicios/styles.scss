@@ -17,7 +17,7 @@
         width: 200px;
         align-self: center;
     }
-    &__card{
+    &__card {
             list-style: none;
             width: 30%;
             display: flex;
@@ -74,4 +74,21 @@
         background-color: $red;
     }
 }
+
+@media (max-width: $medium) {
+    .nuestros-servicios-home {
+        &__card {
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: $small) {
+    .nuestros-servicios-home {
+        &__card {
+            width: 100%;
+        }
+    }   
+}
+
 

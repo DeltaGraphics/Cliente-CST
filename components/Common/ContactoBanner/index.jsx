@@ -27,7 +27,6 @@ const ContactoBanner = () => (
 					<p className="contacto-banner__content-subtitle">
 						Ponte en contacto con nosotros estamos para servirte.
 					</p>
-					{/* <button>Enviar un mensaje</button> */}
 				</div>
 			</div>
 		</div>
